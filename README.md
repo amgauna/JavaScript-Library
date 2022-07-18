@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/shaka-player/4.1.2/controls.css" type="text/css">
 
-<!-- CSS / BOOTSTRAP 5.2.0 -- 
+<!-- CSS / BOOTSTRAP 5.2.0 --> 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" type="text/css"> 
  
 <style>
@@ -49,10 +49,10 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/color/jquery.color.plus-names-2.2.0.js" crossorigin="anonymous"></script>
   
-    <!--  JavaScript / Bootstrap 5.2.0  --
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" </script
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" crossorigin="anonymous"</script
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" crossorigin="anonymous"</script>
+    <!--  JavaScript / Bootstrap 5.2.0  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" crossorigin="anonymous"> </script>
     
     <!-- Angular.JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" crossorigin="anonymous"></script>
