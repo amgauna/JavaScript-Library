@@ -1,16 +1,7 @@
 # JavaScript-Library
 
-<!DOCTYPE html>
-
-<html lang="pt-br">
-<head>
-
-<title>JavaScript Library</title>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
 
 <!--  CSS / Fontes Awesome -->
@@ -20,25 +11,15 @@
 
 <!-- JQuery / JQuery Mobile / Google Hosted Library -->
 <link rel="stylesheet" href="https://code.jquery.com/jquery.mobile-1.4.5.min.css" type="text/css">
-<link rel="stylesheet" href="https://code.jquery.com/jquery.mobile.structure-1.4.5.min.css" type="text/css" type="text/css">
+<link rel="stylesheet" href="https://code.jquery.com/jquery.mobile.structure-1.4.5.min.css" type="text/css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" type="text/css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/shaka-player/4.1.2/controls.css" type="text/css">
 
-<!-- CSS / BOOTSTRAP 5.2.0 --> 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" type="text/css"> 
+<!-- CSS / BOOTSTRAP 5.3.8 --> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" type="text/css"> 
  
-<style>
-    .html,body,h1,h2,h3,h4,h5,h6,p,span {font-family: 'Arial, Helvetica, sans-serif'; color:black;}
-</style>
-
-</head>
-
-<body>
-
-<!-- JavaScript (colocar no final dentro do body) -->
-
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
     
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -49,10 +30,10 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/color/jquery.color.plus-names-2.2.0.js" crossorigin="anonymous"></script>
   
-    <!--  JavaScript / Bootstrap 5.2.0  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"> </script>
+    <!--  JavaScript / Bootstrap 5.3.8  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"> </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" crossorigin="anonymous"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" crossorigin="anonymous"> </script>
     
     <!-- Angular.JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" crossorigin="anonymous"></script>
@@ -61,6 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	
     <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/d3js/7.6.1/d3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
