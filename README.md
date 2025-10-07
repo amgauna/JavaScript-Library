@@ -22,7 +22,7 @@
 <script src="https://apis.google.com/js/platform.js" async defer></script>
     
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <!-- JQUERY / JQuery Mobile / AJAX  -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" crossorigin="anonymous"> </script>
     
     <!-- Angular.JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js" crossorigin="anonymous"></script>
     
     <!-- Google Hosted Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
