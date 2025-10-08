@@ -1,0 +1,145 @@
+/* =============================================================================== */
+/* CSS PLACEHOLDER / AUTOPREFIXER */
+ 
+/* O pseudoelemento ::placeholder (espaço reservado da página) em CSS é usado 
+   para estilizar o texto do espaço reservado dentro dos elementos <input> e 
+   <textarea>. Este pseudoelemento permite a personalização da aparência visual 
+   do espaço reservado, como cor, tamanho da fonte, estilo da fonte e opacidade. */
+
+    ::-webkit-input-placeholder { color: gray; }          
+    ::-ms-input-placeholder { color: gray; }             
+    ::placeholder { color: gray; }
+               
+    a { border-radius: 5px; }
+       
+/* (1) O snippet fornecido css --prefixer{postcss: autoprefixer()} parece ser uma 
+   representação conceitual de como o Autoprefixer é integrado a uma configuração 
+   PostCSS, em vez de uma sintaxe CSS direta e executável. 
+   (2) Aqui está uma explicação dos componentes: --prefixer: Esta não é uma sintaxe 
+   CSS padrão. Conceitualmente, indica a intenção de usar uma ferramenta para adicionar 
+   prefixos de fornecedores. 
+   (3) O postcss: autoprefixer(): Isso significa o uso do Autoprefixer como um plugin 
+   PostCSS. O PostCSS é uma ferramenta para transformar CSS com plugins JavaScript. 
+   Ele atua como uma estrutura para diversas tarefas de processamento de CSS. 
+   (4) O autoprefixer(): Refere-se ao próprio plugin Autoprefixer, que é um plugin PostCSS. 
+   Quando invocado, o Autoprefixer analisa CSS e adiciona os prefixos de fornecedores 
+   necessários (por exemplo, -webkit-, -moz-, -ms-) às propriedades CSS com base no 
+   suporte do navegador especificado, garantindo a compatibilidade entre navegadores. 
+   (5) Na prática, essa configuração seria encontrada no arquivo de configuração de uma
+   ferramenta de compilação (como postcss.config.js, webpack.config.js ou gulpfile.js),
+   onde o PostCSS é configurado para processar arquivos CSS. Um arquivo postcss.config.js 
+   pode ter a seguinte aparência, por exemplo:
+   module.exports= { plugins: [ require('autoprefixer')({
+    // Optional: You can specify target browsers here,
+    // or use a .browserslistrc file in your project root.
+    // browsers: ['last 2 versions', '> 1%', 'IE 11'] })] } ; 
+    (6) Esta configuração informa ao PostCSS para usar o plugin Autoprefixer, que adicionará 
+    automaticamente prefixos de fornecedores ao seu CSS durante o processo de construção,
+    eliminando a necessidade de escrevê-los manualmente.
+*/
+    
+/* Usamos no CSS variavel 1 para true (verdadeiro) e variavel 0 (zero) para falso */
+
+    --postcss { postcss: autoprefixer(prefixer,process(export_modulo)) }
+
+    --cleaner { postcss: autoprefixer(0,browsers[IE][Edge][Chrome][Safari]) }
+
+    --prefixer { postcss: autoprefixer(prefixer,process(cleaned)) }
+   
+    --resultado { postcss: console_log(result) }
+
+    --catch_error { postcss: console_error("Ocorreu um erro:", error); }
+
+
+/* ::placeholder = espaço reservado da página CSS */
+::placeholder { 
+    /* Sets the color of the placeholder text to a light gray */
+    color: gray;
+    /* Makes the placeholder text italic */
+    font-style: italic; 
+    /* Adjusts the opacity of the placeholder text */
+    opacity: 0.8;
+}
+
+/* Estilo para marcadores de posição dentro de tipos de entrada específicos */
+input[type="email"]::placeholder {
+    /* Sets the color of email input placeholders to blue */
+    color: #007bff;
+}
+
+/* Styling for placeholders within a specific class */
+.my-custom-input::placeholder {
+    /* Makes the placeholder text bold for elements with this class */
+    font-weight: bold; 
+}
+
+/* Browser Compatibility: For broader browser compatibility, especially 
+   with older browsers, it is sometimes necessary to include vendor 
+   prefixes alongside the standard ::placeholder pseudo-element: */
+
+/* Standard syntax */
+::placeholder {
+    color: #c71585;
+}
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-input-placeholder {
+    color: #c71585;
+}
+
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+    color: #c71585;
+}
+
+/* Firefox (older versions) */
+::-moz-placeholder {
+    color: #c71585;
+}
+
+/* Imagem do Background da página */   
+.image { background-image: url(image@1x.png); }
+
+@media (min-resolution: 2dppx) {
+    .image { background-image: url(image@2x.png); }
+     }
+
+/* O Autoprefixer usará os dados com base na popularidade atual dos navegadores 
+   e no suporte de propriedades para aplicar prefixos no código da página. 
+   Você pode experimentar a demonstração interativa do Autoprefixer. */
+
+::-moz-placeholder { color: gray; }
+
+::placeholder { color: gray; }
+
+.image { background-image: url(image@1x.png); }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    .image { background-image: url(image@2x.png); }
+       }
+
+.page_principal {
+    display: grid;
+    grid-gap: 33px;
+    grid-template:
+        "head head  head" 1fr
+        "nav  main  main" minmax(100px, 1fr) "nav  foot  foot" 2fr /
+        1fr 100px 1fr;
+}
+
+.page_head {
+    grid-area: head;
+}
+
+.page_nav {
+    grid-area: nav;
+}
+
+.page_main {
+    grid-area: main;
+}
+
+.page_footer {
+    grid-area: foot;
+}
+
