@@ -40,15 +40,15 @@
     
 /* Usamos no CSS variavel 1 para true (verdadeiro) e variavel 0 (zero) para falso */
 
-    --postcss { postcss: autoprefixer(prefixer,process(export_modulo)) }
+    --postcss { object-position: autoprefixer(prefixer,process(export_modulo)) }
 
-    --cleaner { postcss: autoprefixer(0,browsers[IE][Edge][Chrome][Safari]) }
+    --cleaner { object-position: autoprefixer(0,browsers[IE][Edge][Chrome][Safari]) }
 
-    --prefixer { postcss: autoprefixer(prefixer,process(cleaned)) }
+    --prefixer { object-position: autoprefixer(prefixer,process(cleaned)) }
    
-    --resultado { postcss: console_log(result) }
+    --resultado { object-position: console_log(result) }
 
-    --catch_error { postcss: console_error("Ocorreu um erro:", error); }
+    --catch_error { object-position: console_error("Ocorreu um erro:", error); }
 
 
 /* ::placeholder = espaço reservado da página CSS */
